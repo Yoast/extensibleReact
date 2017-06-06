@@ -1,0 +1,30 @@
+{
+  "name": "extensibleReact",
+  "description": "An API (PoC) for making React components extensible.",
+  "version": "0.1.0",
+  "main": "./index.js",
+  "module": "./index.js",
+  "private": true,
+  "devDependencies": {
+		"babel-eslint": "^7.2.3",
+    "eslint": "^3.16.1",
+    "eslint-config-react-app": "^0.5.1",
+    "eslint-config-yoast": "^2.0.2",
+    "eslint-loader": "1.6.0",
+    "eslint-plugin-flowtype": "2.21.0",
+    "eslint-plugin-import": "2.0.1",
+    "eslint-plugin-jsx-a11y": "2.2.3",
+    "eslint-plugin-react": "6.4.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "react": "^15.4.2"
+  },
+  "scripts": {
+    "lint": "eslint index.js",
+    "lint-strict": "eslint index.js --max-warnings=0"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  }
+}
