@@ -5,7 +5,6 @@ import _flatten from "lodash/flatten";
 
 const wp = {
 	components: {},
-	componentOrigins: [],
 };
 
 const getTarget = ( target ) => {
