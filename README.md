@@ -1,6 +1,6 @@
 # extensibleReact
 
-Note, this is a proof of concept (PoC). Not intended for use in a real world project!
+:warning: This is a proof of concept (PoC). Not intended for use in a real world project! :warning:
 
 API for extending React components. The main function is `extendComponent`, a simple [higher order function / component](https://facebook.github.io/react/docs/higher-order-components.html) which allows people to extend a component in one of the following ways:
 
@@ -9,7 +9,7 @@ API for extending React components. The main function is `extendComponent`, a si
 - `replaceComponent` allows you to replace the extensible component with your own component.
 - `removeComponent` allows you to remove the extensible component.
 
-Please take a look at [index.js]() to see how simple it is to implement this.
+Please take a look at [index.js](https://github.com/Yoast/extensibleReact/blob/master/index.js) to see how simple it is to implement this.
 
 The aim of this PoC is to help strengthen the case for introducing React (or at least JSX) to WordPress core JavaScript. A React based system makes it incredibly easy to make an API like this. Not only does React make this easy. Because of everything being JavaScript, we also have complete control over the components and the ways in which components can be extended. This gives us much needed possibilities:
 
